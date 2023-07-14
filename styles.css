@@ -3,3 +3,41 @@ body{
     flex-direction: column;
 }
 
+/* header */
+
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.icon {
+    width: 40px;
+    display: flex;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 16px
+}
+
+a{
+    text-decoration: none;
+}
+
+/* body 1 */
+
+.body-1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.body-1-img{
+    width: 300px;
+    height: 150px;
+    border: 5px solid black;
+}
+
+/* body 2 */
