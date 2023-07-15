@@ -8,6 +8,7 @@ body{
 .header{
     display: flex;
     justify-content: space-between;
+    margin-bottom: 40px;
 }
 
 .icon {
@@ -32,6 +33,7 @@ a{
 .body-1{
     display: flex;
     justify-content: space-between;
+    margin-bottom: 40px;
 }
 
 .body-1-img{
@@ -46,6 +48,7 @@ a{
     display: flex;
     justify-content: center;
     gap: 52px;
+    margin-bottom: 40px;
 }
 
 .body-2-header{
@@ -61,4 +64,27 @@ a{
     width: 100px;
     height: 100px;
     border: 5px solid black;
+}
+
+/* body 3 */
+
+.body-3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.body-3-quote{
+    display: flex;
+    font-size: 20px;
+    width: 700px;
+    height: auto;
+}
+
+.body-3-quote-author{
+    display: flex;
+    font-size: 20px;
+    width: 700px;
+    height: auto;
+    justify-content: flex-end;
 }
