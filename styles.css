@@ -12,7 +12,8 @@ body{
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    justify-content: space-around;
+    
+    
 }
 
 /* header */
@@ -22,6 +23,8 @@ body{
     justify-content: center;
     /* margin-bottom: 40px; */
     gap: 1000px;
+    background-color: #1F2937;
+    padding-bottom: 40px;
 }
 
 .icon {
@@ -34,11 +37,15 @@ ul{
     list-style: none;
     margin: 0;
     padding: 0;
-    gap: 16px
+    gap: 16px;
+    
+    
 }
 
 a{
     text-decoration: none;
+    color: white;
+    
 }
 
 /* body 1 */
@@ -48,7 +55,8 @@ a{
     justify-content: center;
     /* margin-bottom: 40px; */
     gap: 100px;
-    
+    background-color: #1F2937;
+    padding-bottom: 40px;
 }
 
 .body-1-img{
@@ -65,11 +73,14 @@ a{
     justify-content: center;
     gap: 52px;
     /* margin-bottom: 40px; */
+ 
+    
 }
 
 .body-2-header{
     text-align: center;
     /* margin-bottom: 32px; */
+   
 }
 
 .body-2-info{
