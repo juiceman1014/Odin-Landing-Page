@@ -6,6 +6,7 @@ html, body{
 body{
     display: flex;
     flex-direction: column;
+    flex: 1;
 }
 
 .body-container{
@@ -13,6 +14,17 @@ body{
     flex-direction: column;
     min-height: 100vh;
     
+    
+}
+
+button{
+    background-color: #3882F6;
+    color: white;
+    border-radius: 8px;
+    padding-left: 8px;
+    padding-right: 8px;
+    border: 1px solid #3882F6;
+    cursor: pointer;
     
 }
 
@@ -44,7 +56,7 @@ ul{
 
 a{
     text-decoration: none;
-    color: white;
+    color: gray;
     
 }
 
@@ -59,11 +71,22 @@ a{
     padding-bottom: 40px;
 }
 
+.body-1-header{
+    font-size: 48px;
+    font-weight: bold;
+    color: #F9FAF8;
+}
+
+.body-1-text{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
 .body-1-img{
     
-    width: 300px;
-    height: 150px;
-    border: 5px solid black;
+    width: 200px;
+    height: 200px;
+    border: 5px solid gray;
 }
 
 /* body 2 */
@@ -72,25 +95,33 @@ a{
     display: flex;
     justify-content: center;
     gap: 52px;
-    /* margin-bottom: 40px; */
+    padding-bottom: 40px;
+    padding-top: 40px;
  
     
 }
 
 .body-2-header{
     text-align: center;
+    padding-top: 40px;
+    font-weight: bold;
+    font-size: 36px;
+    color: #1F2937;
     /* margin-bottom: 32px; */
    
 }
 
 .body-2-info{
     max-width: 200px;
+    color: gray;
+    
+    
 }
 
 .body-2-img{
-    width: 100px;
+    width: 150px;
     height: 100px;
-    border: 5px solid black;
+    border: 5px solid #3882F6;
     border-radius: 20px;
 }
 
@@ -100,7 +131,12 @@ a{
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-bottom: 70px;
+    padding-top: 70px;
     /* margin-bottom: 40px; */
+    background-color: #E5E7EB;
+    
+    
 }
 
 .body-3-quote{
@@ -108,6 +144,8 @@ a{
     font-size: 20px;
     width: 700px;
     height: auto;
+    color: #1F2937;
+    
 }
 
 .body-3-quote-author{
@@ -116,6 +154,7 @@ a{
     width: 700px;
     height: auto;
     justify-content: flex-end;
+    color: #1F2937;
 }
 
 /* body 4 */
@@ -123,14 +162,22 @@ a{
 .body-4{
     display: flex;
     justify-content: center;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    
 }
 
 .body-4-card{
     display: flex;
     gap: 100px;
-    border: 5px solid black;
+    border: 5px solid #3882F6;
     padding: 20px;
     border-radius: 20px;
+    
+}
+
+.body-4-text{
+    font-size: 10px;
 }
 
 /* footer */
@@ -138,7 +185,9 @@ a{
 .footer{
     display: flex;
     justify-content: center;
-    align-items: flex-end;
-    
+    align-items: center;
+    background-color: #1F2937;
+    padding: 20px;
+    color: gray;
 }
 
